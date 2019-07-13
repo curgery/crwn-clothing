@@ -37,8 +37,7 @@ class  App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <h1>The RLG Brand Clothing</h1>
+        <Header /><h1>The RLG Brand Clothing</h1>
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route  path='/shop' component={ShopPage} />
