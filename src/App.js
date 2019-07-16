@@ -46,6 +46,7 @@ class  App extends React.Component {
     return (
       <div>
         <Header /><h1>The RLG Brand Clothing</h1>
+        <span>(A production demo by RL Glover)</span>
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route  path='/shop' component={ShopPage} />
