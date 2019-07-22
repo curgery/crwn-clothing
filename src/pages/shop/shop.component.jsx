@@ -3,8 +3,6 @@ import { Route } from 'react-router-dom';
 import { createStructuredSelector } from 'reselect';
 import { connect } from 'react-redux';
 
-// import { firestore, convertCollectionsSnapshotToMap } from '../../firebase/firebase.utils';
-
 import { fetchCollectionsStartAsync } from '../../redux/shop/shop.actions'; 
 
 import { selectIsCollectionFetching, selectIsCollectionsLoaded } from '../../redux/shop/shop.selectors'; 
