@@ -3,6 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
+<<<<<<< HEAD
   apiKey: "AIzaSyClnbgzpeQ6wqgykmR-WE7Rxrs8OW-b_FU",
   authDomain: "crwn-db-68598.firebaseapp.com",
   databaseURL: "https://crwn-db-68598.firebaseio.com",
@@ -10,6 +11,9 @@ const config = {
   storageBucket: "",
   messagingSenderId: "1095430907604",
   appId: "1:1095430907604:web:4f082b3d88f71550"
+=======
+  
+>>>>>>> 2bf3feee947c93878e5953e04695ccc91034a132
 };
 
 firebase.initializeApp(config);
@@ -71,6 +75,7 @@ export const convertCollectionsSnapshotToMap = collections => {
     return accumulator;
   }, {});
 };
+<<<<<<< HEAD
 
 export const getCurrentUser = () => {
   return new Promise((resolve, reject) => {
@@ -80,6 +85,8 @@ export const getCurrentUser = () => {
     }, reject)
   })
 }
+=======
+>>>>>>> 2bf3feee947c93878e5953e04695ccc91034a132
 
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
