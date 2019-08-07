@@ -9,7 +9,6 @@ import { signUpStart } from '../../redux/user/user.actions';
 import { SignUpContainer, SignUpTitle } from './sign-up.styles';
 
 
-// import './sign-up.styles.scss';
 
 const SignUp = ({ signUpStart }) =>  {
     const [userCredentials, setUserCredentials] = useState({
