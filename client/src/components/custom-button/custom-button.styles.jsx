@@ -25,7 +25,6 @@ const invertedButtonStyles = css`
     }
 `;
 
-
 const googleSignInStyles = css`
     background-color: #4285f4;
     color: white;
